@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 2520)
+    (drawings 2522)
     (tracks 10)
     (zones 0)
     (modules 75)
@@ -21,7 +21,7 @@
     (37 F.SilkS user)
     (38 B.Mask user)
     (39 F.Mask user)
-    (40 Dwgs.User user hide)
+    (40 Dwgs.User user)
     (41 Cmts.User user)
     (42 Eco1.User user)
     (43 Eco2.User user)
@@ -60,7 +60,7 @@
     (pad_to_mask_clearance 0)
     (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFFF7F)
+    (visible_elements FFFFF77F)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
@@ -1434,7 +1434,7 @@
   )
 
   (module Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles (layer F.Cu) (tedit 5C2B6BB2) (tstamp 5F08E9AF)
-    (at 117.348 155.6512 180)
+    (at 118.618 43.8912 180)
     (descr "TRS 3.5mm, vertical, Thonkiconn, PCB mount, (http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html)")
     (tags "WQP-PJ398SM WQP-PJ301M-12 TRS 3.5mm mono vertical jack thonkiconn qingpu")
     (path /5F022DB7)
@@ -1488,7 +1488,7 @@
   )
 
   (module Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles (layer F.Cu) (tedit 5C2B6BB2) (tstamp 5F0206B4)
-    (at 129.343311 155.596604 180)
+    (at 130.613311 43.836604 180)
     (descr "TRS 3.5mm, vertical, Thonkiconn, PCB mount, (http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html)")
     (tags "WQP-PJ398SM WQP-PJ301M-12 TRS 3.5mm mono vertical jack thonkiconn qingpu")
     (path /5F022DC6)
@@ -3645,7 +3645,7 @@
   )
 
   (module Button_Switch_THT:E-switch_SPDT_100SP1T1B4M2QE (layer F.Cu) (tedit 5EFDE0A2) (tstamp 5F158E91)
-    (at 117.1575 116.7765 90)
+    (at 115.57 118.11 90)
     (path /5F170197)
     (fp_text reference SW1 (at 0 -2.2 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3662,7 +3662,7 @@
   )
 
   (module Button_Switch_THT:E-switch_SPDT_100SP1T1B4M2QE (layer F.Cu) (tedit 5EFDE0A2) (tstamp 5F158E97)
-    (at 128.27 120.142 90)
+    (at 133.35 118.11 90)
     (path /5F213EDF)
     (fp_text reference SW4 (at 0 -2.2 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3826,6 +3826,8 @@
     )
   )
 
+  (gr_line (start 49.53 171.45) (end 49.53 45.72) (layer F.SilkS) (width 0.2))
+  (gr_line (start 109.22 171.45) (end 49.53 171.45) (layer F.SilkS) (width 0.2))
   (gr_arc (start 34.29 101.6) (end 34.29 97.79) (angle -90) (layer Edge.Cuts) (width 0.1))
   (gr_arc (start 34.29 154.94) (end 30.48 154.94) (angle -90) (layer Edge.Cuts) (width 0.1))
   (gr_arc (start 134.62 154.94) (end 134.62 158.75) (angle -90) (layer Edge.Cuts) (width 0.1))
